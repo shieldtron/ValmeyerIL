@@ -4,17 +4,11 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
  
- @font-face {
-	font-family: Woolen;
-	font-weight: bold;
-	src: url("../fonts/Woolen.otf") format("opentype");
-}
-
 footer p {
     font-size: 10px;
 }
 .brand-heading {
-    font-family: Woolen,"IM Fell French Canon",sans-serif;
+    font-family: Lora, Helvetica, Arial, sans-serif;
 	font-weight: bold;
 	text-transform: capitalize;
 }
@@ -22,7 +16,7 @@ footer p {
 body {
     width: 100%;
     height: 100%;
-    font-family: Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Lora, Helvetica, Arial, sans-serif;
     color: #fff;
     background-color: #000;
 }
@@ -40,7 +34,7 @@ h5,
 h6 {
     margin: 0 0 35px;
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Lora, Helvetica, Arial, sans-serif;
     font-weight: 700;
     letter-spacing: 1px;
 }
@@ -80,7 +74,7 @@ a:focus {
     margin-bottom: 0;
     border-bottom: 1px solid rgba(255,255,255,.3);
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Lora, Helvetica, Arial, sans-serif;
     background-color: #000;
 }
 
@@ -167,7 +161,7 @@ a:focus {
 }
 
 .intro .intro-body .brand-heading {
-    font-size: 80px;
+    font-size: 48px;
 }
 
 .intro .intro-body .intro-text {
@@ -182,7 +176,7 @@ a:focus {
     }
 
     .intro .intro-body .brand-heading {
-        font-size: 175px;
+        font-size: 100px;
     }
 
     .intro .intro-body .intro-text {
@@ -304,7 +298,7 @@ a:focus {
 
 .btn {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Lora, Helvetica, Arial, sans-serif;
     font-weight: 400;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
